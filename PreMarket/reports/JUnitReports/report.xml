@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="120.546" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Navia Online Trading Market Login" name="Login Navia" time="51.039">
+<system-out><![CDATA[
+Given User Navigate to Navia................................................passed
+When User Click login with client code......................................passed
+And User Enter Client Code..................................................passed
+And User Enter Password.....................................................passed
+And User Click Agree CheckBox...............................................passed
+And User Click Login button.................................................passed
+And User Click Otp Verification and enter manualy...........................passed
+And User Click Login Again..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Add Any Script and Verify" time="36.721">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User click the search box...............................................passed
+And User Search any "WIPRO" Script..........................................passed
+And User Mouse Over and Add a Script "WIPRO"................................passed
+And User POP Up Message Appear Verify POP UP................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="User Placing the Order" time="6.122">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User mouse the scrip Selected "WIPRO"...................................passed
+And User Click the Buy scrip for Selected "WIPRO" Scrip.....................passed
+And User Click Market then Limit............................................passed
+And User Enter Amount in Price Text Box "4232"..............................passed
+And User Click Buy..........................................................passed
+And User Click Yes Popup....................................................passed
+Then Verify the Buy Scrip Notification Pop up...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Modify Scrip and Verify" time="8.113">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click Pending Orders...............................................passed
+And User Click Edit Icon for Selected Scrip "WIPRO".........................passed
+And User Click Modify.......................................................passed
+And User Modify Quality.....................................................passed
+And User Modify Price.......................................................passed
+And User Click Update.......................................................passed
+And User Click Yes in Pop up................................................passed
+Then Verify the Modify Notification popup...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Cancel the Scrip" time="2.052">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click Pending Order................................................passed
+And User Click Selected Scrip "WIPRO" Edit..................................passed
+And User Click Cancel.......................................................passed
+And User Click Yes for Confirmation.........................................passed
+Then User Verify the Cancellation Notification Popup........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Payin add money in navia" time="10.135">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click Add Money....................................................passed
+And User enter money in amount to add.......................................passed
+And User Choose Pay Using UPI...............................................passed
+And User Enter UPI/ID/Mobile Number and click pay now.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Verify the Charts Changes in Different Minutes and Days" time="6.151">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click the Watch List...............................................passed
+And User Select scrip "S&P BSE SENSEX"......................................passed
+And User Click Watch List Again.............................................passed
+And User mouse over the scrip "Nifty 50"....................................passed
+And User Click the Charts...................................................passed
+And User Click the Candles Icon.............................................passed
+And User Choose Candle "candle".............................................passed
+And User Click the Mintues..................................................passed
+And User Choose One Minute..................................................passed
+And Verify One Minute Feed Connection Value and Wait One Minute Very Feed Connection Changes.passed
+And User Click the Five Minute..............................................passed
+And Verify Five Minute Feed Connection Valuebb..............................passed
+And User Click One Day......................................................passed
+And Verify One Day Feed Connection Value and Wait One Minute Very Feed Connection Changes.passed
+]]></system-out>
+</testcase>
+</testsuite>

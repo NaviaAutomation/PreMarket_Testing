@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import com.baseclass.BaseClass;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\Venkateshwaran\\eclipse-workspace\\PreMarket\\src\\test\\java\\com\\feature\\DailyEightFortyTesting.feature"
+@CucumberOptions(features="C:\\Users\\Venkateshwaran\\git\\repository2\\PreMarket\\src\\test\\java\\com\\feature\\DailyEightFortyTesting.feature"
 ,glue ={"com.stepdefinition"} , 
 // tags="@tools2",
 plugin = {"pretty",

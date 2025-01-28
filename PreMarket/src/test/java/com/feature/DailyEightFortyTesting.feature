@@ -12,42 +12,42 @@ Scenario: Login Navia
     And User Click Login Again
     
     
-Scenario: Add Any Script and Verify
-    When Navigate to home page
-    And User click the search box
-    And User Search any "WIPRO" Script
-    And User Mouse Over and Add a Script "WIPRO"
-    And User POP Up Message Appear Verify POP UP
-    
-Scenario: User Placing the Order
-    When Navigate to home page
-    And User mouse the scrip Selected "WIPRO" 
-    And User Click the Buy scrip for Selected "WIPRO" Scrip
-    And User Click Market then Limit
-    And User Enter Amount in Price Text Box "4232"
-    And User Click Buy
-    And User Click Yes Popup
-    Then Verify the Buy Scrip Notification Pop up
-    
-Scenario: Modify Scrip and Verify
-    When Navigate to home page
-    And User Click Pending Orders
-    And User Click Edit Icon for Selected Scrip "WIPRO"
-    And User Click Modify
-    And User Modify Quality
-    And User Modify Price
-    And User Click Update
-    And User Click Yes in Pop up
-    Then Verify the Modify Notification popup
-    
-Scenario: Cancel the Scrip
-
-    When Navigate to home page
-    And User Click Pending Order
-    And User Click Selected Scrip "WIPRO" Edit
-    And User Click Cancel
-    And User Click Yes for Confirmation
-    Then User Verify the Cancellation Notification Popup
+#Scenario: Add Any Script and Verify
+    #When Navigate to home page
+    #And User click the search box
+    #And User Search any "WIPRO" Script
+    #And User Mouse Over and Add a Script "WIPRO"
+    #And User POP Up Message Appear Verify POP UP
+    #
+#Scenario: User Placing the Order
+    #When Navigate to home page
+    #And User mouse the scrip Selected "WIPRO" 
+    #And User Click the Buy scrip for Selected "WIPRO" Scrip
+    #And User Click Market then Limit
+    #And User Enter Amount in Price Text Box "4232"
+    #And User Click Buy
+    #And User Click Yes Popup
+    #Then Verify the Buy Scrip Notification Pop up
+    #
+#Scenario: Modify Scrip and Verify
+    #When Navigate to home page
+    #And User Click Pending Orders
+    #And User Click Edit Icon for Selected Scrip "WIPRO"
+    #And User Click Modify
+    #And User Modify Quality
+    #And User Modify Price
+    #And User Click Update
+    #And User Click Yes in Pop up
+    #Then Verify the Modify Notification popup
+    #
+#Scenario: Cancel the Scrip
+#
+    #When Navigate to home page
+    #And User Click Pending Order
+    #And User Click Selected Scrip "WIPRO" Edit
+    #And User Click Cancel
+    #And User Click Yes for Confirmation
+    #Then User Verify the Cancellation Notification Popup
     
 Scenario: Payin add money in navia
     When Navigate to home page

@@ -15,9 +15,9 @@ import com.baseclass.BaseClass;
 // tags="@tools2",
 plugin = {"pretty",
 		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-		  "html:reports/HtmlReports1/report.html",
-         "json:reports/JSONReports/report.json",
-         "junit:reports/JUnitReports/report.xml"})
+		  "html:target/HtmlReports1/report.html",
+         "json:target/JSONReports/report.json",
+         "junit:target/JUnitReports/report.xml"})
 public class Runner {
 	
 	public static WebDriver driver;
